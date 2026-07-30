@@ -649,11 +649,9 @@ background:#0B1F3A;
 
 .map{
     margin-top:60px;
-    margin-left: 120px;
     overflow:hidden;
     border-radius:15px;
     box-shadow:var(--shadow);
-    width: 900px;
 }
 
 .back-btn{
