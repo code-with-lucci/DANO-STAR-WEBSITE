@@ -209,7 +209,7 @@ section{
     align-items:center;
     justify-content:center;
     padding:0 8%;
-    background:url("../images/hero/hero1.jpg") center center/cover no-repeat;
+    background:url("images/hero1.jpg") center center/cover no-repeat;
     overflow:hidden;
 }
 
