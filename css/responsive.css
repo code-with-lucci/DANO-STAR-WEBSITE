@@ -1,0 +1,113 @@
+/*==========================
+      TABLET DEVICES
+==========================*/
+
+@media(max-width:992px){
+
+    .navbar{
+        padding:15px 5%;
+    }
+
+    .hero-content h1{
+        font-size:55px;
+    }
+
+    .about-preview{
+        grid-template-columns:1fr;
+    }
+
+    .footer-content{
+        grid-template-columns:1fr 1fr;
+    }
+
+}
+
+/*==========================
+      MOBILE DEVICES
+==========================*/
+
+@media(max-width:768px){
+
+    .menu-toggle{
+        display:block;
+    }
+
+    .nav-links{
+        position:absolute;
+        top:100%;
+        left:0;
+        width:100%;
+        background:#081628;
+        flex-direction:column;
+        text-align:center;
+        gap:20px;
+        padding:30px 0;
+        display:none;
+    }
+
+    .nav-links.active{
+        display:flex;
+    }
+
+    .nav-buttons{
+        display:none;
+    }
+
+    .hero{
+        text-align:center;
+        padding:0 5%;
+    }
+
+    .hero-content h1{
+        font-size:42px;
+    }
+
+    .hero-content p{
+        font-size:18px;
+    }
+
+    .hero-buttons{
+        justify-content:center;
+    }
+
+    .about-text h2,
+    .section-title h2,
+    .contact-cta h2{
+        font-size:34px;
+    }
+
+    .footer-content{
+        grid-template-columns:1fr;
+        text-align:center;
+    }
+
+}
+
+/*==========================
+      SMALL PHONES
+==========================*/
+
+@media(max-width:480px){
+
+    .hero-content h1{
+        font-size:34px;
+    }
+
+    .hero-content p{
+        font-size:16px;
+    }
+
+    .discover-btn,
+    .contact-btn,
+    .call-btn,
+    .whatsapp-btn{
+        width:100%;
+        text-align:center;
+    }
+
+    .service-card,
+    .why-card{
+        margin:0 auto;
+    }
+
+}
