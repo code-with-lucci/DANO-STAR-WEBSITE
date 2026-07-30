@@ -43,11 +43,11 @@ const hero = document.querySelector(".hero");
 
 const heroImages = [
 
-"images/hero/hero1.jpg",
+"images/hero1.jpg",
 
-"images/hero/hero2.jpg",
+"images/hero2.jpg",
 
-"images/hero/hero3.jpg"
+"images/hero3.jpg"
 
 ];
 
