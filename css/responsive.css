@@ -81,8 +81,23 @@
         grid-template-columns:1fr;
         text-align:center;
     }
-
+.food-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:10px;
 }
+
+.food-card img{
+    width: 100px;
+    height: 130px;
+    object-fit: cover;
+}
+.food-card h3{
+    font-size: 13px;
+    padding: 8px;
+}
+}
+
 
 /*==========================
       SMALL PHONES
