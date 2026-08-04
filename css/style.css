@@ -287,10 +287,10 @@ section{
 ===================================*/
 
 .about-preview{
-    padding:100px 8%;
+    padding:60px 5%;
     display:grid;
     grid-template-columns:1fr 1fr;
-    gap:60px;
+    gap:30px;
     align-items:center;
     background:#fff;
 }
@@ -321,7 +321,7 @@ section{
 .about-text p{
     color:#666;
     line-height:1.9;
-    margin-bottom:30px;
+    margin-bottom:20px;
 }
 
 .about-text a{
