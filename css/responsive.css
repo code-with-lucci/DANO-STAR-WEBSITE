@@ -32,18 +32,35 @@
         display:block;
     }
 
+    .navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo img{
+    width:150px;
+    height:auto;
+}
+
+.menu-toggle{
+    display:block;
+    font-size:32px;
+    color:#fff;
+    cursor:pointer;
+}
+
     .nav-links{
         position:absolute;
         top:100%;
         left:0;
         width:100%;
         background:#081628;
-        flex-direction:row;
-        text-align:left;
-        gap:10px;
-        padding:30px 0;
+        flex-direction:column;
+        text-align:center;
+        gap:20px;
+        padding:25px 0;
         display:none;
-        height: 30px
     }
 
     .nav-links.active{
@@ -56,8 +73,9 @@
 
     .hero{
         text-align:center;
-        padding: 140px;
+        padding: 160px 5% 80px;
         min-height: 100vh;
+        align-items:center;
     }
     .hero-content{
         margin-top: 40px;
@@ -65,8 +83,8 @@
     }
 
     .hero-content h1{
-        font-size:38px;
-        line-height:1.2;
+        font-size:32px;
+        line-height:1.15;
     }
 
     .hero-content p{
@@ -80,7 +98,12 @@
     .about-text h2,
     .section-title h2,
     .contact-cta h2{
-        font-size:34px;
+        font-size:42px;
+        line-height: 1.2;
+    }
+    .about-text p{
+        font-size: 17px;
+        line-height: 1.8;
     }
 
     .footer-content{
@@ -102,16 +125,12 @@
     font-size: 13px;
     padding: 8px;
 }
-.logo img{
-    width: 130px;
-}
 }
 
 
 /*==========================
       SMALL PHONES
 ==========================*/
-
 @media(max-width:480px){
 
     .hero-content h1{
