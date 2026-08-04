@@ -56,20 +56,21 @@
 
     .hero{
         text-align:center;
-        padding: 170px;
+        padding: 140px;
         min-height: 100vh;
     }
     .hero-content{
         margin-top: 40px;
+        text-align: center;
     }
 
     .hero-content h1{
-        font-size:48px;
-        line-height:1.1;
+        font-size:38px;
+        line-height:1.2;
     }
 
     .hero-content p{
-        font-size:18px;
+        font-size:17px;
     }
 
     .hero-buttons{
@@ -100,6 +101,9 @@
 .food-card h3{
     font-size: 13px;
     padding: 8px;
+}
+.logo img{
+    width: 130px;
 }
 }
 
