@@ -133,6 +133,39 @@
     max-width: 320px;
     margin: 70px auto 30px;
 }
+.about-preview{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 40px 5%;
+}
+.about-image{
+    order: 2;
+    margin-top: 0;
+
+}
+.about-text{
+    order: 1;
+}
+.about-image img{
+    width: 100%;
+    display: block;
+}
+.values-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.value-card{
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 35px 20px;
+    border-radius: 20px;
+    text-align: center;
+}
 }
 
 
