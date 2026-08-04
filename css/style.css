@@ -43,7 +43,7 @@ body{
 
 /* Section */
 section{
-    padding:100px 0;
+    padding:110px 0;
 }
 
 /* Titles */
@@ -78,10 +78,13 @@ section{
 .btn{
     display:inline-block;
     padding:15px 35px;
-    border-radius:6px;
+    background:#f4b400;
+    color: #fff;
+    border-radius:50px;
     text-decoration:none;
     font-weight:600;
-    transition:.4s;
+    transition:.3s ;
+    box-shadow: 0 8px 20px rgba(0,0,0,.15);
 }
 
 .btn-primary{
@@ -90,8 +93,8 @@ section{
 }
 
 .btn-primary:hover{
-    transform:translateY(-5px);
-    box-shadow:var(--shadow);
+    transform:translateY(-3px);
+    box-shadow:0 8px 20px rgba(0,0,0,0.2);
 }
 
 .btn-outline{
@@ -112,20 +115,20 @@ section{
     top:0;
     left:0;
     width:100%;
-    padding:18px 8%;
+    padding:15px 8%;
     display:flex;
     justify-content:space-between;
     align-items:center;
-    background:rgba(11,31,58,.80);
+    background:rgba(11,31,58,.95);
     backdrop-filter:blur(10px);
     z-index:1000;
-    transition:.4s;
-    height: 100px;
+    transition:0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
 }
 
 .logo img{
-    height:150px;
-    width: 250px;
+    height:auto;
+    width: 180px;
 }
 
 .nav-links{
@@ -137,13 +140,13 @@ section{
 .nav-links a{
     color:#fff;
     text-decoration:none;
-    font-weight:600;
+    font-weight:500;
     position:relative;
-    transition:.3s;
+    transition:color 0.3s ease;
 }
 
 .nav-links a:hover{
-    color:var(--secondary);
+    color:#f4b400;
 }
 
 .nav-links a::after{
@@ -348,6 +351,11 @@ section{
     overflow:hidden;
     box-shadow:var(--shadow);
     transition:.4s;
+    display: flex;
+    flex-direction: column;
+}
+.service-card p{
+    flex-grow: 1;
 }
 
 .service-card:hover{
@@ -510,6 +518,7 @@ footer{
     background:#081628;
     color:#fff;
     padding:70px 8% 30px;
+    border-top: 4px solid #f5a623;
 }
 
 .footer-content{
@@ -730,7 +739,7 @@ transform:translateY(-10px);
 
 width:100%;
 
-height:220px;
+height:240px;
 
 object-fit:cover;
 
@@ -932,3 +941,9 @@ background:#fff;
         transform:scale(.9);
     }
 }
+img{
+    transition: 4s ease;
+}
+    img:hover{
+        transform:scale(1.03) ;
+    }
