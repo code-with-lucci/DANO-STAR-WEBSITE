@@ -56,11 +56,16 @@
 
     .hero{
         text-align:center;
-        padding:0 5%;
+        padding: 170px;
+        min-height: 100vh;
+    }
+    .hero-content{
+        margin-top: 40px;
     }
 
     .hero-content h1{
-        font-size:27px;
+        font-size:48px;
+        line-height:1.1;
     }
 
     .hero-content p{
