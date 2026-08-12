@@ -28,7 +28,7 @@
 
 @media(max-width:768px){
 
-    .menu-toggle{
+.menu-toggle{
         display:block;
     }
 
@@ -185,6 +185,7 @@ body {
     border-radius: 20px;
     text-align: center;
 }
+}
 /*==================================
    COMPANY CAPACITY RESPONSIVE
 ===================================*/
@@ -259,6 +260,54 @@ body {
     .service-card,
     .why-card{
         margin:0 auto;
+    }
+}
+
+/*==================================
+   COMPANY CAPACITY RESPONSIVE
+===================================*/
+
+@media(max-width:992px){
+
+    .capacity-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .community-content{
+        grid-template-columns:1fr;
+        gap:40px;
+    }
+
+}
+
+
+@media(max-width:768px){
+
+    .capacity-grid{
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+    .capacity-card{
+        padding:30px 25px;
+    }
+
+    .safety-content{
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+    .community-section{
+        padding:70px 5%;
+    }
+
+    .community-text h2{
+        font-size:36px;
+        line-height:1.2;
+    }
+
+    .community-highlight{
+        padding:30px 25px;
     }
 
 }
